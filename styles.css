@@ -1,0 +1,44 @@
+/* Add these styles to your existing CSS file */
+
+/* Style for the exercise grid */
+.exercise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Style for individual exercise cards */
+.exercise-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.exercise-card h3 {
+    font-size: 20px;
+    color: #007BFF;
+}
+
+.exercise-card img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.exercise-card p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Hide all workout sections by default */
+.workout-section {
+    display: none;
+}
+
+/* Style for the currently active workout section */
+.active {
+    display: block;
+}
